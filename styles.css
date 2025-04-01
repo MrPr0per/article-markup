@@ -18,9 +18,13 @@ body {
     margin: 0;
 }
 
-#projects_link {
+#nav_panel_links_list > li > a:hover {
     text-decoration: underline !important;
 }
+
+/*#projects_link {*/
+/*    text-decoration: underline !important;*/
+/*}*/
 
 #blog_link {
     color: #d0021b !important;
@@ -64,7 +68,7 @@ h2 {
 
 p {
     font-size: 21px;
-    line-height:33px;
+    line-height: 33px;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     margin: 10px 0;
     padding: 0;
@@ -116,39 +120,44 @@ h1, h2, h3 {
 
     #nav_panel_links_list > li > a {
         font-family: LucidaGrande, Arial, sans-serif;
-        font-size:20px;
-        color:#333333;
-        text-align:left;
-        line-height:25px;
+        font-size: 20px;
+        color: #333333;
+        text-align: left;
+        line-height: 25px;
         text-decoration: none;
     }
 
-    #click_hand {
-        position: absolute;
-        top: 160px;
-        left: 80px;
-    }
-    article{
+    /*#click_hand {*/
+    /*    position: absolute;*/
+    /*    top: 160px;*/
+    /*    left: 80px;*/
+    /*}*/
+    article {
         width: 520px;
     }
-    p{
+
+    p {
         font-size: 18px;
         line-height: 22px;
         margin: 6px 0;
     }
-    h1{
+
+    h1 {
         font-size: 26px;
         line-height: 28px;
     }
-    h2{
+
+    h2 {
         font-size: 22px;
         line-height: 39px;
     }
-    h1,h2,h3{
-        margin-top:25px;
+
+    h1, h2, h3 {
+        margin-top: 25px;
         margin-bottom: 6px;
     }
-    .article_image{
+
+    .article_image {
         margin: 25px 0;
         width: 520px;
     }
