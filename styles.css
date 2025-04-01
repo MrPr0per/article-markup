@@ -7,6 +7,7 @@ body {
 }
 
 #nav_panel_links_list {
+    box-sizing: border-box;
     list-style: none;
     display: flex;
 
@@ -47,22 +48,23 @@ body {
 article {
     width: 700px;
     margin: auto;
-    text-align:left;
-    color:rgba(0,0,0,0.84);
+    text-align: left;
+    color: rgba(0, 0, 0, 0.84);
 }
 
 h1 {
     font-size: 42px;
-    line-height:44px;
+    line-height: 44px;
 }
 
 h2 {
     font-size: 34px;
-    line-height:39px;
+    line-height: 39px;
 }
+
 p {
     font-size: 21px;
-    line-height:33px;
+    line-height: 33px;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif
 }
 
@@ -76,7 +78,46 @@ h1, h2, h3 {
 }
 
 @media (max-width: 800px) {
-    /* Тут пиши стили для мобилки.
-        Стили применятся только когда страничка будет ≤800px шириной
-     */
+    #logo {
+        margin: 10px 0 10px 20px;
+    }
+
+    #nav_panel_links_list {
+        list-style: none;
+        display: block;
+
+        background-color: #FAF9F8;
+        padding: 20px 20px;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        margin: 0;
+    }
+
+    #projects_link {
+        text-decoration: underline !important;
+    }
+
+    #blog_link {
+        color: #d0021b !important;
+    }
+
+    #nav_panel_links_list > li:not(:last-child) {
+        /*gap: 10px;*/
+        margin-bottom: 10px;
+    }
+
+    #nav_panel_links_list > li > a {
+        font-family: LucidaGrande, Arial, sans-serif;
+        font-size:20px;
+        color:#333333;
+        text-align:left;
+        line-height:25px;
+        text-decoration: none;
+    }
+
+    #click_hand {
+        position: absolute;
+        top: 160px;
+        left: 80px;
+    }
 }
