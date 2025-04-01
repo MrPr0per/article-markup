@@ -64,11 +64,19 @@ h2 {
 
 p {
     font-size: 21px;
-    line-height: 33px;
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif
+    line-height:33px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    margin: 10px 0;
+    padding: 0;
+}
+
+img {
+    margin: 37px 0;
 }
 
 h1, h2, h3 {
+    margin-top: 55px;
+    margin-bottom: 10px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
 }
 
