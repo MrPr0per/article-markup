@@ -128,4 +128,28 @@ h1, h2, h3 {
         top: 160px;
         left: 80px;
     }
+    article{
+        width: 520px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 22px;
+        margin: 6px 0;
+    }
+    h1{
+        font-size: 26px;
+        line-height: 28px;
+    }
+    h2{
+        font-size: 22px;
+        line-height: 39px;
+    }
+    h1,h2,h3{
+        margin-top:25px;
+        margin-bottom: 6px;
+    }
+    .article_image{
+        margin: 25px 0;
+        width: 520px;
+    }
 }
